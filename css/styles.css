@@ -209,7 +209,7 @@ nav h1 a {
 }
 
 #restaurants-list li h1 {
-  color: #f18200;
+  color: #3397DB;
   font-family: Arial, sans-serif;
   font-size: 14pt;
   font-weight: 200;
@@ -225,16 +225,21 @@ nav h1 a {
 }
 
 #restaurants-list li a {
-  background-color: orange;
+  background-color: #3397DB;
+  /* background-color: orange; */
   border-bottom: 3px solid #eee;
   color: #fff;
   display: inline-block;
-  font-size: 10pt;
+  font-size: 15pt;
   margin: 15px 0 0;
   padding: 8px 30px 10px;
   text-align: center;
   text-decoration: none;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
+}
+
+#restaurants-list li a:hover {
+  background-color: rgb(4, 51, 82);
 }
 
 /* ====================== Restaurant Details ====================== */
